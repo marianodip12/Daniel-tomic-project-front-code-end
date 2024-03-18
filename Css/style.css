@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    text-decoration: none;
+    font-family: 'Poppins';
+    h2{font-size: 28px;}
+  
+   
+}
+a.nav-link.active{color: white;}
+a.nav-link{color: white;}
+body{background-color:black;}
+.container{background-color: black;
+color: white;}
+main{
+    background-color: black;
+   
+} 
+
+.title-color{
+    color:#FFFFFF;
+    font-size: 29px;
+}
+.text-color{color: #fdb524;
+font-size: 48px;
+font-weight: bold;}
+
+.btn1{
+  background-color: black;
+  color: white;
+    border-color: #fdb524;
+    border-width: 0.1px;
+    border-radius: 5px;
+}
+
+.span{
+    color: #fdb524;
+}
+.span2{ font-size: 28px;
+    color: #F2417C;font-weight: bold;
+}
+.sec2{
+    font-size: 24px;
+    font-family: 'Poppins';
+}
+.imgban{
+    object-fit: cover;
+}
+.email{background-color:#202020 ;}
+.btn2{
+    background-color: #fdb524;
+    width: 30%;
+font-size: 15px;
+border-radius: 10px;
+}
+.google{
+    font-size: 28px;
+    font-weight: bold;
+}
+.span3{
+    font-size: 24px;
+    font-weight: 300;
+}
+.sect1{
+    background-image: url(/Asset/fon1.png);
+}
+
+.card-body{
+
+    background-color: black;
+    .card-text{
+        color: white;
+    }
+}
+.text-color-card-1{color:white;}
+.text-color-card-2{
+    color: #fdb524;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr; 
+    grid-template-rows: auto auto; 
+    gap: 20px; 
+  }
+  
+  .imagen-y-nombre {
+    display: flex;
+    align-items: center;
+  }
+  
+  .grid1 {
+    display: flex;
+    justify-content: space-between; 
+  }
+  
+  
+  .grid2 {
+    display: flex;
+    align-items: center; 
+    grid-column: 2; 
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  p {
+    margin: 0; 
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto); 
+    gap: 20px; 
+  
+  }
+  
+  section h3 {
+    margin-top: 0;
+  }
+  
+  section a {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  img {
+    max-width: 100%;
+    display: block;
+    margin-bottom: 10px;
+  }
+  .with{background: rgb(242,65,124);
+    background: linear-gradient(90deg, rgba(242,65,124,1) 14%, rgba(253,181,36,1) 37%); 
+  color: black; font-weight: bold;}
+  h2{ font-size: 28px ;font-weight: bold;}
+  footer{ margin: 0 auto;
+    a{text-decoration: none; color: white;}
+  }
+
+  /* Desktop */
+@media screen and (min-width: 1200px) {
+
+ 
+
+   .text-color{
+    font-size: 68px;
+    text-align: center;
+   }
+   /* alineacion de la sec 1 en el medio */
+   .banners{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+    /*Seccion 2 website */
+
+  .websitediv{display: flex;
+  }
+  .divweb{
+    display: flex;
+    column-gap: 10px;
+  }
+  .about{
+    width: 50%;
+    margin-left: 80px;
+  }
+  .aboutsec{
+    
+    display: flex;
+    flex-direction: row-reverse;
+    row-gap: 100px;
+
+  }   /* seccion digital marketing */
+  .story{
+    display: flex;
+  }
+  .storysec{
+    width: 50%;
+  }
+     /* testimonials */
+  .texttestimonial{
+    text-align: center;
+  }
+   /* centrado y reduccion del tamaño del formulario  */
+  .formd{
+    width: 50%;
+    margin: 0 auto;
+  }
+  .butblog{
+    display: none;
+    }
+  
+  }
+  /* algunos cambios  */
+
+  @media screen and (max-width: 767px) {
+    .texttestimonial{
+
+    }
+    .icon1{
+      position: relative;
+      bottom: 165px;
+      left: 380px;
+    }
+  .icon2{position: relative;
+    bottom: 165px;}
+ 
+
+    
+  }
+
+  @media screen and (min-width: 768px) {
+    .texttestimonial{
+text-align: center;
+    }
+  
+  }
+  @media screen and (min-width: 1200px) {
+    footer{
+      margin: 0 auto;
+      a{text-decoration: none; color: white;}
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .sec1 { grid-column: 2; }
+    .sec2 { grid-column: 3; }
+    .sec3 { grid-column: 4; }
+    .sec4 { grid-column: 1;grid-row: 1; 
+    margin:0 auto}
+}
