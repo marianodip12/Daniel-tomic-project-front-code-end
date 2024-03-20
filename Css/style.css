@@ -9,7 +9,7 @@
 a.nav-link.active{color: white;}
 a.nav-link{color: white;}
 body{background-color:black;}
-.container{background-color: black;
+.container-fluid{background-color: black;
 color: white;}
 main{
     background-color: black;
